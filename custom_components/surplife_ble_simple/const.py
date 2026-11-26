@@ -1,7 +1,7 @@
 """Constants for Surplife BLE Simple integration."""
 
 DOMAIN = "surplife_ble_simple"
-ERVICE_UUID = "0000c04c-0000-1000-8000-00805f9b34fb"
+DERVICE_UUID = "00005a02-0000-1000-8000-00805f9b34fb"
 WRITE_UUID = "0000a04c-0000-1000-8000-00805f9b34fb"
 NOTIFY_UUID = "0000f04c-0000-1000-8000-00805f9b34fb"
 
