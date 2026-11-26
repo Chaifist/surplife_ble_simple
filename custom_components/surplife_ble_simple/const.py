@@ -1,9 +1,10 @@
 """Constants for Surplife BLE Simple integration."""
 
 DOMAIN = "surplife_ble_simple"
-DERVICE_UUID = "00005a02-0000-1000-8000-00805f9b34fb"
-WRITE_UUID = "0000a04c-0000-1000-8000-00805f9b34fb"
-NOTIFY_UUID = "0000f04c-0000-1000-8000-00805f9b34fb"
+
+DEVICE_UUID = "0000ffff-0000-1000-8000-00805f9b34fb"
+NOTIFY_UUID = "0000ff02-0000-1000-8000-00805f9b34fb"   # Enable notifications
+WRITE_UUID = "0000ff01-0000-1000-8000-00805f9b34fb"
 
 # Poke command to trigger status report from device
 POKE_COMMAND = [0x77, 0x00, 0x00, 0x03]
